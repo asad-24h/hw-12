@@ -1,0 +1,123 @@
+/*common css start*/
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box; 
+}
+body{
+    font-family: 'Lato', sans-serif
+}
+ol,ul{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+/*//common css end*/
+/*nax css start*/
+nav{
+    background-color: #131e29;
+    text-transform: uppercase;
+}
+nav .row{
+    align-items: center;
+}
+nav .logo{
+    width: 20%;
+}
+nav .logo img{
+    display: block;
+}
+nav .menu{
+    width: 80%;
+}
+nav .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav .menu ul li a{
+    color: #fff;
+    display: inline-block;
+    padding: 22px 20px;
+}
+nav .container .menu a:hover{
+    color:#4bcaff;
+    transition:  all .3s linear;
+}
+/*//nax css end*/
+/*banner css start*/
+#banner{
+    background-image:url(../img/banner-1.jpg) ;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    
+}
+#banner .row {
+    align-items: center;
+}
+#banner .container,
+#banner .container .row{
+    height: 100%;
+}
+#banner .banner_img{
+    width: 40%;
+}
+#banner .banner_img img{
+    height: 90%;
+    position: absolute;
+    left: 0;
+    bottom:-100px;
+}
+#banner .banner_content{
+    width: 60%;
+    color: #fff;
+    padding: 50px;
+    
+}
+#banner .banner_content .banner_btn a{
+    display: inline-block;
+    padding: 15px 25px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: all .5s linear;
+    box-shadow: 0 3px 0 rgba( 39, 118, 151, 0);
+}
+#banner .banner_content .banner_btn a:hover{
+    background-color: #4bcaff;
+    border-color: #4bcaff;
+    box-shadow: 0 3px 0 rgba( 39, 118, 151, 1);
+}
+#banner .banner_icon_btn{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:25px ;
+}
+#banner .banner_icon_btn i{
+    font-size: 27px;
+    text-align: center;
+    line-height: 52px;
+    width: 52px;
+    height: 52px;
+    background-color: #16191e;
+    border-radius: 50%;
+    margin: 15px;
+    color: #4bcaff;
+}
+/*//banner css end*/
+
